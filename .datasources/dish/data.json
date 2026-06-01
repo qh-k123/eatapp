@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "dish_001",
+    "shop_id": "shop_001",
+    "name": "巨无霸套餐",
+    "description": "巨无霸汉堡+中薯条+中可乐",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c66cd?w=400",
+    "category": "recommend",
+    "original_price": 45,
+    "sales": 5888,
+    "is_hot": true,
+    "platform_prices": {
+      "eleme": 32,
+      "meituan": 35,
+      "jd": 38
+    },
+    "createdAt": 1717142400000,
+    "updatedAt": 1717142400000
+  },
+  {
+    "_id": "dish_002",
+    "shop_id": "shop_001",
+    "name": "麦辣鸡腿堡套餐",
+    "description": "麦辣鸡腿堡+中薯条+中可乐",
+    "image": "https://images.unsplash.com/photo-1513185158878-8d8c2a2a3da3?w=400",
+    "category": "recommend",
+    "original_price": 42,
+    "sales": 6666,
+    "is_hot": true,
+    "platform_prices": {
+      "eleme": 28,
+      "meituan": 30,
+      "jd": 32
+    },
+    "createdAt": 1717142400000,
+    "updatedAt": 1717142400000
+  },
+  {
+    "_id": "dish_003",
+    "shop_id": "shop_001",
+    "name": "双层吉士汉堡套餐",
+    "description": "双层吉士汉堡+中薯条+中可乐",
+    "image": "https://images.unsplash.com/photo-1550317138-10000687a72b?w=400",
+    "category": "combo",
+    "original_price": 48,
+    "sales": 3333,
+    "is_hot": false,
+    "platform_prices": {
+      "eleme": 35,
+      "meituan": 38,
+      "jd": 40
+    },
+    "createdAt": 1717142400000,
+    "updatedAt": 1717142400000
+  },
+  {
+    "_id": "dish_004",
+    "shop_id": "shop_001",
+    "name": "板烧鸡腿堡",
+    "description": "经典板烧鸡腿堡",
+    "image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400",
+    "category": "burger",
+    "original_price": 25,
+    "sales": 8888,
+    "is_hot": true,
+    "platform_prices": {
+      "eleme": 18,
+      "meituan": 20,
+      "jd": 22
+    },
+    "createdAt": 1717142400000,
+    "updatedAt": 1717142400000
+  },
+  {
+    "_id": "dish_005",
+    "shop_id": "shop_001",
+    "name": "麦辣鸡翅(2块)",
+    "description": "香辣酥脆",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=400",
+    "category": "snack",
+    "original_price": 12,
+    "sales": 9999,
+    "is_hot": true,
+    "platform_prices": {
+      "eleme": 8,
+      "meituan": 9,
+      "jd": 10
+    },
+    "createdAt": 1717142400000,
+    "updatedAt": 1717142400000
+  },
+  {
+    "_id": "dish_006",
+    "shop_id": "shop_001",
+    "name": "中杯可乐",
+    "description": "冰爽解渴",
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400",
+    "category": "drink",
+    "original_price": 10,
+    "sales": 15000,
+    "is_hot": false,
+    "platform_prices": {
+      "eleme": 6,
+      "meituan": 7,
+      "jd": 8
+    },
+    "createdAt": 1717142400000,
+    "updatedAt": 1717142400000
+  }
+]

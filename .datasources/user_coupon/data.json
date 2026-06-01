@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "uc001",
+    "user_id": "u001",
+    "coupon_id": "c001",
+    "platform": "美团",
+    "title": "外卖红包",
+    "code": "MT20240201",
+    "discount": 5,
+    "min_spend": 20,
+    "color": "#FFC300",
+    "status": "unused",
+    "received_at": "2024-02-01T10:00:00Z",
+    "expiry_date": "2024-03-01T23:59:59Z"
+  },
+  {
+    "_id": "uc002",
+    "user_id": "u001",
+    "coupon_id": "c002",
+    "platform": "饿了么",
+    "title": "满减券",
+    "code": "ELM20240202",
+    "discount": 10,
+    "min_spend": 30,
+    "color": "#0096FF",
+    "status": "unused",
+    "received_at": "2024-02-02T14:00:00Z",
+    "expiry_date": "2024-02-28T23:59:59Z"
+  }
+]

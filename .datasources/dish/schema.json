@@ -1,0 +1,51 @@
+{
+  "name": "dish",
+  "title": "菜品",
+  "schemas": [
+    {
+      "name": "shop_id",
+      "title": "所属店铺ID",
+      "type": "String"
+    },
+    {
+      "name": "name",
+      "title": "菜品名称",
+      "type": "String"
+    },
+    {
+      "name": "image",
+      "title": "菜品图片",
+      "type": "Image"
+    },
+    {
+      "name": "description",
+      "title": "菜品描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "category",
+      "title": "分类",
+      "type": "String"
+    },
+    {
+      "name": "original_price",
+      "title": "原价",
+      "type": "Number"
+    },
+    {
+      "name": "sales",
+      "title": "销量",
+      "type": "Number"
+    },
+    {
+      "name": "is_hot",
+      "title": "是否招牌菜",
+      "type": "Boolean"
+    },
+    {
+      "name": "platform_prices",
+      "title": "各平台价格",
+      "type": "Object"
+    }
+  ]
+}

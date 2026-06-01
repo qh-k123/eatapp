@@ -1,0 +1,70 @@
+{
+  "name": "user_coupon",
+  "title": "用户优惠券",
+  "description": "用户领取的优惠券记录",
+  "schemas": [
+    {
+      "name": "user_id",
+      "title": "用户ID",
+      "type": "String",
+      "description": "关联用户"
+    },
+    {
+      "name": "coupon_id",
+      "title": "优惠券ID",
+      "type": "String",
+      "description": "关联优惠券"
+    },
+    {
+      "name": "platform",
+      "title": "所属平台",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "title": "优惠券标题",
+      "type": "String"
+    },
+    {
+      "name": "code",
+      "title": "优惠码",
+      "type": "String"
+    },
+    {
+      "name": "discount",
+      "title": "优惠金额",
+      "type": "Number"
+    },
+    {
+      "name": "min_spend",
+      "title": "最低消费",
+      "type": "Number"
+    },
+    {
+      "name": "color",
+      "title": "主题色",
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "title": "状态",
+      "type": "String",
+      "description": "unused-未使用, used-已使用, expired-已过期"
+    },
+    {
+      "name": "received_at",
+      "title": "领取时间",
+      "type": "DateTime"
+    },
+    {
+      "name": "used_at",
+      "title": "使用时间",
+      "type": "DateTime"
+    },
+    {
+      "name": "expiry_date",
+      "title": "过期时间",
+      "type": "DateTime"
+    }
+  ]
+}

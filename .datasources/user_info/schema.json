@@ -1,0 +1,49 @@
+{
+  "name": "user_info",
+  "title": "用户信息",
+  "schemas": [
+    {
+      "name": "nickName",
+      "title": "昵称",
+      "type": "String"
+    },
+    {
+      "name": "avatarUrl",
+      "title": "头像",
+      "type": "Image"
+    },
+    {
+      "name": "phone",
+      "title": "手机号",
+      "type": "String"
+    },
+    {
+      "name": "isGuest",
+      "title": "是否为游客",
+      "type": "Boolean"
+    },
+    {
+      "name": "memberLevel",
+      "title": "会员等级",
+      "type": "String"
+    },
+    {
+      "name": "memberPoints",
+      "title": "会员积分",
+      "type": "Number"
+    },
+    {
+      "name": "favorites",
+      "title": "收藏店铺",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "couponCount",
+      "title": "优惠券数量",
+      "type": "Number"
+    }
+  ]
+}

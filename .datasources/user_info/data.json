@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "user_001",
+    "_openid": "wx_openid_001",
+    "nickName": "美食探索者",
+    "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    "phone": "13800138000",
+    "isGuest": false,
+    "memberLevel": "黄金会员",
+    "memberPoints": 2580,
+    "favorites": ["shop_001", "shop_003", "shop_005"],
+    "couponCount": 5,
+    "createdAt": 1717200000000,
+    "updatedAt": 1719800000000
+  },
+  {
+    "_id": "user_002",
+    "_openid": "wx_openid_002",
+    "nickName": "吃货小王",
+    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    "phone": "13900139000",
+    "isGuest": false,
+    "memberLevel": "普通会员",
+    "memberPoints": 680,
+    "favorites": ["shop_002", "shop_004"],
+    "couponCount": 2,
+    "createdAt": 1717300000000,
+    "updatedAt": 1719700000000
+  },
+  {
+    "_id": "user_003",
+    "_openid": "wx_openid_003",
+    "nickName": "奶茶控",
+    "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+    "phone": "13700137000",
+    "isGuest": false,
+    "memberLevel": "钻石会员",
+    "memberPoints": 5680,
+    "favorites": ["shop_005", "shop_006", "shop_007", "shop_008"],
+    "couponCount": 8,
+    "createdAt": 1716500000000,
+    "updatedAt": 1719900000000
+  },
+  {
+    "_id": "guest_001",
+    "_openid": "guest_openid_001",
+    "nickName": "游客",
+    "avatarUrl": "",
+    "phone": "",
+    "isGuest": true,
+    "memberLevel": "游客身份",
+    "memberPoints": 0,
+    "favorites": [],
+    "couponCount": 0,
+    "createdAt": 1719900000000,
+    "updatedAt": 1719900000000
+  }
+]

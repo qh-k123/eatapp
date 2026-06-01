@@ -1,0 +1,69 @@
+{
+  "name": "shop",
+  "title": "店铺",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "店铺名称",
+      "type": "String"
+    },
+    {
+      "name": "image",
+      "title": "店铺图片",
+      "type": "Image"
+    },
+    {
+      "name": "description",
+      "title": "店铺描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "rating",
+      "title": "评分",
+      "type": "Number"
+    },
+    {
+      "name": "monthly_sales",
+      "title": "月销量",
+      "type": "Number"
+    },
+    {
+      "name": "delivery_time",
+      "title": "配送时间",
+      "type": "String"
+    },
+    {
+      "name": "distance",
+      "title": "距离",
+      "type": "Number"
+    },
+    {
+      "name": "delivery_fee",
+      "title": "配送费",
+      "type": "Number"
+    },
+    {
+      "name": "min_price",
+      "title": "起送价",
+      "type": "Number"
+    },
+    {
+      "name": "address",
+      "title": "地址",
+      "type": "String"
+    },
+    {
+      "name": "phone",
+      "title": "电话",
+      "type": "String"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    }
+  ]
+}

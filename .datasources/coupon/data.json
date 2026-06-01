@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "1",
+    "platform": "饿了么",
+    "title": "满30减15",
+    "code": "ELM3015",
+    "type": "amount",
+    "discount": 15,
+    "min_spend": 30,
+    "expiry": "今日到期",
+    "color": "#0085FF",
+    "createdAt": 1780230577983,
+    "updatedAt": 1780230577983
+  },
+  {
+    "_id": "2",
+    "platform": "美团外卖",
+    "title": "满50减20",
+    "code": "MT5020",
+    "type": "amount",
+    "discount": 20,
+    "min_spend": 50,
+    "expiry": "明日到期",
+    "color": "#FFD100",
+    "createdAt": 1780230577983,
+    "updatedAt": 1780230577983
+  },
+  {
+    "_id": "3",
+    "platform": "京东到家",
+    "title": "新人专享8折",
+    "code": "JDNEW80",
+    "type": "percent",
+    "discount": 0.2,
+    "min_spend": 0,
+    "expiry": "3天后到期",
+    "color": "#E4393C",
+    "createdAt": 1780230577983,
+    "updatedAt": 1780230577983
+  },
+  {
+    "_id": "4",
+    "platform": "饿了么",
+    "title": "免配送费",
+    "code": "ELMFREE",
+    "type": "amount",
+    "discount": 5,
+    "min_spend": 25,
+    "expiry": "今日到期",
+    "color": "#0085FF",
+    "createdAt": 1780230577983,
+    "updatedAt": 1780230577983
+  },
+  {
+    "_id": "5",
+    "platform": "美团外卖",
+    "title": "满20减8",
+    "code": "MT2008",
+    "type": "amount",
+    "discount": 8,
+    "min_spend": 20,
+    "expiry": "本周有效",
+    "color": "#FFD100",
+    "createdAt": 1780230577983,
+    "updatedAt": 1780230577983
+  },
+  {
+    "_id": "6",
+    "platform": "达达快送",
+    "title": "首单立减10元",
+    "code": "DADA10",
+    "type": "amount",
+    "discount": 10,
+    "min_spend": 0,
+    "expiry": "本月有效",
+    "color": "#00C853",
+    "createdAt": 1780230577983,
+    "updatedAt": 1780230577983
+  }
+]

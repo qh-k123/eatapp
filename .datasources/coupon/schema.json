@@ -1,0 +1,46 @@
+{
+  "name": "coupon",
+  "title": "优惠券",
+  "schemas": [
+    {
+      "name": "platform",
+      "title": "所属平台",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "title": "优惠券标题",
+      "type": "String"
+    },
+    {
+      "name": "code",
+      "title": "优惠码",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "title": "优惠类型",
+      "type": "String"
+    },
+    {
+      "name": "discount",
+      "title": "优惠金额/折扣",
+      "type": "Number"
+    },
+    {
+      "name": "min_spend",
+      "title": "最低消费金额",
+      "type": "Number"
+    },
+    {
+      "name": "expiry",
+      "title": "有效期",
+      "type": "String"
+    },
+    {
+      "name": "color",
+      "title": "平台主题色",
+      "type": "String"
+    }
+  ]
+}
